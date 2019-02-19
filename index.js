@@ -21,3 +21,8 @@ function appendKitten(name){
   var dontKnow = [...kittens,'Broom'];
   return dontKnow;
 }
+
+function prependKitten(name){
+  var anotherThing = kittens.unshift("Moew");
+  return anotherThing;
+}
