@@ -26,5 +26,3 @@ function prependKitten(name){
   var anotherThing = kittens.unshift("Arnold");
   return anotherThing;
 }
-
-
