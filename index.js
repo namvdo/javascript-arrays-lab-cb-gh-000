@@ -31,3 +31,8 @@ function removeLastKitten(){
   var something = kittens.pop();
   return kittens;
 }
+
+function removeFirstKitten(){
+  var somenewArray = kittens.slice(2);
+  return somenewArray;
+}
