@@ -32,7 +32,4 @@ function removeLastKitten(){
   return removeSomething;
 }
 
-function removeFirstKitten(){
-  var removeSomethingfromTheFirst = kittens.shift();
-  return removeSomethingfromTheFirst;
-}
+
