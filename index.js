@@ -28,6 +28,6 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  var removeSomethingFromtheLast = kittens.pop();
+  var removeSomethingFromtheLast = kittens.slice(array.length);
   return removeSomethingFromtheLast;
 }
